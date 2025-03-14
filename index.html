@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maitreya Buddha Sidebar</title>
+    <link rel="stylesheet" href="./styels.css">
+    <!-- Import Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <div class="app">
+        <!-- Sidebar -->
+        <div id="sidebar" class="sidebar open">
+            <div class="sidebar-content">
+                <button id="closeSidebar" class="back-button">
+                    <span class="material-icons">chevron_left</span>
+                </button>
+
+                <div class="artifact-title">
+                    <h1>MAITREYA BUDDHA</h1>
+                    <h1>IN GESTURE OF</h1>
+                    <h1>FEARLESSNESS</h1>
+                    <h1>(ABHAYA MUDRA)</h1>
+                </div>
+
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <button class="stat-button"><span class="material-icons">favorite</span></button>
+                        <span class="stat-value">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <button class="stat-button"><span class="material-icons">share</span></button>
+                        <span class="stat-value">120</span>
+                    </div>
+                    <div class="stat-item">
+                        <button class="stat-button"><span class="material-icons">visibility</span></button>
+                        <span class="stat-value">27</span>
+                    </div>
+                </div>
+
+                <div class="artifact-info">
+                    <p>Dynasty: Ahichchhatra</p>
+                    <p>Period: 200 CE</p>
+                    <p>Material: Sandstone</p>
+                    <p>Location: National Museum</p>
+                </div>
+
+                <div class="artifact-description">
+                    <h3>Description:</h3>
+                    <p>
+                        Maitreya, the future Buddha to be, resides in the
+                        Tushita heaven as a bodhisattva waiting to redeem
+                        humanity. In Buddhism, Maitreya is the eighth
+                        Buddha, a successor of the seven historical Buddhas
+                        (sapta-manushi Buddhas). The Digha Nikaya
+                        mentions, Maitreya Buddha will be born in Ketumati,
+                        in present-day Varanasi, Uttar Pradesh. As a
+                        bodhisattva, Maitreya wears a heavily adorned with
+                        earrings, wristlets, necklaces, and an amulet.
+                    </p>
+                    <a href="#" class="read-more">→ READ MORE</a>
+                </div>
+
+                <div class="button-container">
+                    <button class="add-collection-btn">ADD TO COLLECTION</button>
+                    <button class="souvenir-btn">SOUVENIR</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <button id="openSidebar" class="toggle-btn visible">
+              <span class="material-icons">chevron_right</span>
+            </button>
+
+            <div class="image-container">
+                <img src="./images/statue.png" alt="Maitreya Buddha" class="statue-image">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
